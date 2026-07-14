@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Welcome to Concept Digital Marketing Agency - Your Partner in Success">
+    <meta name="theme-color" content="#0a0a1a">
+    <title>Welcome to Concept | Digital Marketing Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <img src="assets/logo-animated.gif" alt="Concept Logo" class="loader-logo">
+            <div class="loader-text">Loading Experience...</div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress">
+        <div class="scroll-progress-bar"></div>
+    </div>
+
+    <!-- Floating Particles Background -->
+    <div class="particles-container" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="main-nav" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="assets/logo-original.jpg" alt="Concept">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#philosophy" class="nav-link">Philosophy</a></li>
+                <li><a href="#partnership" class="nav-link">Partnership</a></li>
+                <li><a href="#workflow" class="nav-link">Workflow</a></li>
+                <li><a href="#promise" class="nav-link">Promise</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-glow"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down">
+                <span class="badge-dot"></span>
+                Client Welcome Experience
+            </div>
+            <div class="hero-logo-container" data-aos="zoom-in" data-aos-delay="200">
+                <img src="assets/logo-animated.gif" alt="Concept Logo" class="hero-logo">
+            </div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="400">
+                <span class="title-line">Welcome To</span>
+                <span class="title-line title-highlight">Concept</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="600">
+                أهلاً بكم في Concept Digital Marketing Agency
+            </p>
+            <div class="hero-statement" data-aos="fade-up" data-aos-delay="800">
+                <p class="statement-en">We don't believe in having clients.</p>
+                <p class="statement-en">We believe in building <span class="text-glow">long-term partners</span>.</p>
+                <p class="statement-en">When your business grows...</p>
+                <p class="statement-en"><span class="text-glow">Concept grows with you.</span></p>
+            </div>
+            <div class="hero-statement-ar" data-aos="fade-up" data-aos-delay="1000">
+                <p>نحن لا نؤمن بأنكم مجرد عملاء...</p>
+                <p>بل نؤمن بأنكم <span class="text-glow">شركاء نجاح</span>.</p>
+                <p>عندما تنمو علامتكم التجارية...</p>
+                <p><span class="text-glow">تنمو Concept معكم.</span></p>
+            </div>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="1200">
+                <a href="#about" class="btn btn-primary">
+                    <span>Explore Our World</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">01 — About</span>
+                <h2 class="section-title">About <span class="text-gradient">Concept</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="about-lead">Concept is a Digital Marketing Agency specialized in building brands that stand out in the digital universe.</p>
+                    <p class="about-desc">We combine creativity, strategy, and technology to transform businesses into memorable brands. Our team of experts works alongside you to create digital experiences that drive real results.</p>
+                </div>
+                <div class="about-services" data-aos="fade-left">
+                    <div class="service-card glass-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3>Branding</h3>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <path d="M21 15l-5-5L5 21"/>
+                            </svg>
+                        </div>
+                        <h3>Content Creation</h3>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+                                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+                                <path d="M2 2l7.586 7.586"/>
+                                <circle cx="11" cy="11" r="2"/>
+                            </svg>
+                        </div>
+                        <h3>Graphic Design</h3>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <polygon points="23 7 16 12 23 17 23 7"/>
+                                <rect x="1" y="5" width="15" height="14" rx="2"/>
+                            </svg>
+                        </div>
+                        <h3>Video Production</h3>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                                <circle cx="12" cy="13" r="4"/>
+                            </svg>
+                        </div>
+                        <h3>Photography</h3>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </div>
+                        <h3>Social Media</h3>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <line x1="12" y1="20" x2="12" y2="10"/>
+                                <line x1="18" y1="20" x2="18" y2="4"/>
+                                <line x1="6" y1="20" x2="6" y2="16"/>
+                            </svg>
+                        </div>
+                        <h3>Paid Advertising</h3>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="2" y1="12" x2="22" y2="12"/>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
+                        </div>
+                        <h3>Marketing Strategy</h3>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3>Creative Direction</h3>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                            </svg>
+                        </div>
+                        <h3>Business Growth</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="section philosophy" id="philosophy">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">02 — Philosophy</span>
+                <h2 class="section-title">Our <span class="text-gradient">Philosophy</span></h2>
+            </div>
+            <div class="philosophy-content">
+                <div class="philosophy-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="philosophy-quote">
+                        <svg class="quote-icon" width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                        </svg>
+                        <p class="quote-text">Every successful brand is built by two teams working together.</p>
+                        <p class="quote-text">You understand your business.</p>
+                        <p class="quote-text">We understand marketing.</p>
+                        <p class="quote-text highlight">Together... We create success.</p>
+                    </div>
+                </div>
+                <div class="philosophy-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="philosophy-quote ar">
+                        <p class="quote-text">كل علامة تجارية ناجحة هي نتيجة تعاون فريقين.</p>
+                        <p class="quote-text">أنتم تمتلكون الخبرة في نشاطكم.</p>
+                        <p class="quote-text">ونحن نمتلك الخبرة في التسويق.</p>
+                        <p class="quote-text highlight">ومعًا... نبني قصة نجاح حقيقية.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partnership Section -->
+    <section class="section partnership" id="partnership">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">03 — Partnership</span>
+                <h2 class="section-title">You Are Part of <span class="text-gradient">The Team</span></h2>
+                <p class="section-subtitle">أنتم جزء من فريقنا</p>
+            </div>
+            <div class="partnership-content">
+                <div class="partnership-manifesto" data-aos="fade-up">
+                    <div class="manifesto-en">
+                        <p class="manifesto-lead">We don't work <span class="strike">FOR</span> our clients.</p>
+                        <p class="manifesto-lead">We work <span class="text-glow">WITH</span> our clients.</p>
+                        <div class="manifesto-points">
+                            <div class="point">
+                                <span class="point-num">01</span>
+                                <span>Every idea...</span>
+                            </div>
+                            <div class="point">
+                                <span class="point-num">02</span>
+                                <span>Every discussion...</span>
+                            </div>
+                            <div class="point">
+                                <span class="point-num">03</span>
+                                <span>Every meeting...</span>
+                            </div>
+                            <div class="point">
+                                <span class="point-num">04</span>
+                                <span>Every revision...</span>
+                            </div>
+                        </div>
+                        <p class="manifesto-closing">helps us build a <span class="text-glow">stronger brand together</span>.</p>
+                    </div>
+                    <div class="manifesto-ar">
+                        <p class="manifesto-lead">لسنا مجرد شركة تقدم خدمة.</p>
+                        <p class="manifesto-lead">بل <span class="text-glow">فريق يعمل معكم</span>.</p>
+                        <div class="manifesto-points">
+                            <div class="point">
+                                <span class="point-num">٠١</span>
+                                <span>كل فكرة...</span>
+                            </div>
+                            <div class="point">
+                                <span class="point-num">٠٢</span>
+                                <span>كل اجتماع...</span>
+                            </div>
+                            <div class="point">
+                                <span class="point-num">٠٣</span>
+                                <span>كل ملاحظة...</span>
+                            </div>
+                            <div class="point">
+                                <span class="point-num">٠٤</span>
+                                <span>كل تعديل...</span>
+                            </div>
+                        </div>
+                        <p class="manifesto-closing">يساعد في بناء <span class="text-glow">علامة تجارية أقوى</span>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Formula / Timeline Section -->
+    <section class="section timeline-section" id="workflow">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">04 — Journey</span>
+                <h2 class="section-title">Your Success <span class="text-gradient">Formula</span></h2>
+            </div>
+            <div class="timeline" data-aos="fade-up">
+                <div class="timeline-line">
+                    <div class="timeline-progress"></div>
+                </div>
+                <div class="timeline-items">
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="0">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-icon">🚀</div>
+                            <h3>Welcome</h3>
+                            <p>Your journey begins here</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-icon">🔍</div>
+                            <h3>Research</h3>
+                            <p>Understanding your brand</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-icon">📋</div>
+                            <h3>Strategy</h3>
+                            <p>Building the roadmap</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-icon">✨</div>
+                            <h3>Content Creation</h3>
+                            <p>Crafting your story</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-icon">🎬</div>
+                            <h3>Production</h3>
+                            <p>Bringing ideas to life</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-icon">👁️</div>
+                            <h3>Review</h3>
+                            <p>Perfecting every detail</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="600">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-icon">📤</div>
+                            <h3>Publishing</h3>
+                            <p>Going live to the world</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="700">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-icon">📈</div>
+                            <h3>Growth</h3>
+                            <p>Scaling your success</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Communication Section -->
+    <section class="section communication" id="communication">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">05 — Communication</span>
+                <h2 class="section-title">How We <span class="text-gradient">Communicate</span></h2>
+            </div>
+            <div class="communication-grid">
+                <div class="comm-card glass-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="comm-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Project Updates</h3>
+                    <p>Regular updates on your project progress</p>
+                </div>
+                <div class="comm-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="comm-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                            <line x1="16" y1="13" x2="8" y2="13"/>
+                            <line x1="16" y1="17" x2="8" y2="17"/>
+                            <polyline points="10 9 9 9 8 9"/>
+                        </svg>
+                    </div>
+                    <h3>Content Reviews</h3>
+                    <p>Review and approve all content before publishing</p>
+                </div>
+                <div class="comm-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="comm-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <h3>Approvals</h3>
+                    <p>Clear approval process for all deliverables</p>
+                </div>
+                <div class="comm-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="comm-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                    </div>
+                    <h3>Meetings</h3>
+                    <p>Scheduled meetings to align on goals</p>
+                </div>
+                <div class="comm-card glass-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="comm-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <h3>Scheduling</h3>
+                    <p>Timely scheduling for all campaigns</p>
+                </div>
+                <div class="comm-card glass-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="comm-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 20h9"/>
+                            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                        </svg>
+                    </div>
+                    <h3>Production</h3>
+                    <p>End-to-end content production</p>
+                </div>
+            </div>
+            <div class="account-manager" data-aos="fade-up">
+                <div class="manager-card glass-card">
+                    <div class="manager-avatar">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <div class="manager-info">
+                        <h3>Your Account Manager</h3>
+                        <p class="manager-name">رحمة أبو الإسعاد</p>
+                        <p class="manager-role">Official point of contact for all client groups</p>
+                        <p class="manager-note">All communication happens within your dedicated group</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promise Section -->
+    <section class="section promise" id="promise">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">06 — Promise</span>
+                <h2 class="section-title">Our <span class="text-gradient">Promise</span></h2>
+            </div>
+            <div class="promise-grid">
+                <div class="promise-card glass-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="promise-num">01</div>
+                    <h3>Professional Communication</h3>
+                    <p>Clear, timely, and professional interactions</p>
+                </div>
+                <div class="promise-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="promise-num">02</div>
+                    <h3>Creative Thinking</h3>
+                    <p>Innovative solutions for your brand</p>
+                </div>
+                <div class="promise-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="promise-num">03</div>
+                    <h3>Transparency</h3>
+                    <p>Full visibility into our process</p>
+                </div>
+                <div class="promise-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="promise-num">04</div>
+                    <h3>Fast Response</h3>
+                    <p>Quick turnaround on all requests</p>
+                </div>
+                <div class="promise-card glass-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="promise-num">05</div>
+                    <h3>On-Time Delivery</h3>
+                    <p>Meeting deadlines, every time</p>
+                </div>
+                <div class="promise-card glass-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="promise-num">06</div>
+                    <h3>Quality Control</h3>
+                    <p>Excellence in every deliverable</p>
+                </div>
+                <div class="promise-card glass-card wide" data-aos="fade-up" data-aos-delay="600">
+                    <div class="promise-num">07</div>
+                    <h3>Long-Term Partnership</h3>
+                    <p>We're in this together for the long haul</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Message / CTA Section -->
+    <section class="section final" id="contact">
+        <div class="section-container">
+            <div class="final-content" data-aos="fade-up">
+                <div class="final-logo">
+                    <img src="assets/logo-animated.gif" alt="Concept Logo">
+                </div>
+                <h2 class="final-title">
+                    <span class="title-line">Thank you for trusting</span>
+                    <span class="title-line title-highlight">Concept</span>
+                </h2>
+                <div class="final-message">
+                    <p class="final-en">Today... you became part of our family.</p>
+                    <p class="final-en highlight">Let's build something unforgettable.</p>
+                    <div class="final-divider"></div>
+                    <p class="final-ar">من اليوم... أنتم جزء من عائلة Concept.</p>
+                    <p class="final-ar highlight">دعونا نصنع علامة تجارية يفتخر بها الجميع.</p>
+                </div>
+                <div class="final-actions">
+                    <a href="https://wa.me/" class="btn btn-primary btn-large" target="_blank" rel="noopener">
+                        <span>Start Our Journey Together</span>
+                        <span class="btn-ar">ابدأ رحلتك معنا</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                        </svg>
+                    </a>
+                    <a href="https://team.conceptagency.com" class="btn btn-secondary btn-large" target="_blank" rel="noopener">
+                        <span>Meet Your Team</span>
+                        <span class="btn-ar">تعرف على فريق العمل</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="assets/logo-original.jpg" alt="Concept" class="footer-logo">
+                <p class="footer-tagline">Concept Digital Marketing Agency</p>
+            </div>
+            <div class="footer-motto">
+                <span>Creating Ideas</span>
+                <span class="divider">|</span>
+                <span>Building Brands</span>
+                <span class="divider">|</span>
+                <span>Driving Results</span>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Concept. All rights reserved.</p>
+                <p class="footer-crafted">Crafted with passion in the digital universe</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
